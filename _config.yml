@@ -1,30 +1,49 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
-
 # Setup
-title:               Alins
-tagline:             Alins Website
-url:                 https://alins1r.github.io/
-paginate:            1
-baseurl:             "alins"
+title: Alins Blog
+url: https://alins1r.github.io/alins
+paginate: 1
+paginate_path: "/alins/page:num/"
+baseurl: "/alins"
+permalink: pretty
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+  sass_dir: _sass
+  style: :compressed
 
-# About/contact
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# ga_analytics: UA-000000-0
+
+# Specify the author for blog posts
 author:
-  name:              Alins
-  url:               https://twitter.com/alins1r
-  email:             alins.ir@yahoo.com
+  name: Alins
+  url: https://twitter.com/alins1r
+  email: alins.ir@yahoo.com
 
 # Custom vars
-version:             1.0.0
-github:
-  repo:              https://github.com/alins1r
+version: 3.0.0
+
+# Navbar page list
+nav:
+  - title: WriteUp
+    url: /alins/archive
+
+  - title: About
+    url: /alins/about

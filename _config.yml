@@ -7,7 +7,7 @@ relative_permalinks: true
 # Setup
 title:               Alins
 tagline:             Alins Website
-url:                 http://alins1r.git
+url:                 https://alins1r.github.io/alins/
 paginate:            1
 baseurl:             ""
 
@@ -21,8 +21,8 @@ sass:
 # About/contact
 author:
   name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  url:               https://twitter.com/alins1r
+  email:             alins.ir@yahoo.com
 
 # Custom vars
 version:             1.0.0

@@ -7,9 +7,9 @@ relative_permalinks: true
 # Setup
 title:               Alins
 tagline:             Alins Website
-url:                 https://alins1r.github.io/alins/
+url:                 https://alins1r.github.io/
 paginate:            1
-baseurl:             ""
+baseurl:             "alins"
 
 # Assets
 #
@@ -20,7 +20,7 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
+  name:              Alins
   url:               https://twitter.com/alins1r
   email:             alins.ir@yahoo.com
 

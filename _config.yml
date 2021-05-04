@@ -12,13 +12,11 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 
-# Optimize Jekyll
+
 exclude:
   - .editorconfig
   - .git
   - .jekyll-cache
-  - Gemfile
-  - Gemfile.lock
   - LICENSE.md
   - README.md
 
@@ -26,21 +24,17 @@ sass:
   sass_dir: _sass
   style: :compressed
 
-# Options
 
-# Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
+# Google Analytics
+ga_analytics: G-HLWRB447XT
 
-# Specify the author for blog posts
 author:
   name: Alins
   url: https://twitter.com/alins1r
   email: alins.ir@yahoo.com
 
-# Custom vars
-version: 3.0.0
+version: 1.0.0
 
-# Navbar page list
 nav:
   - title: WriteUp
     url: /alins/archive

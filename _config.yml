@@ -1,9 +1,9 @@
 # Setup
 title: Alins Blog
-url: https://alins1r.github.io/alins
+url: https://alins.ir
 paginate: 1
-paginate_path: "/alins/page:num/"
-baseurl: "/alins"
+paginate_path: "/page:num/"
+baseurl: "/"
 permalink: pretty
 
 # Gems
